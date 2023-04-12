@@ -15,4 +15,4 @@ jobs:
     - name: Install PHP Code Sniffer
       run: composer global require "squizlabs/php_codesniffer=*"
     - name: Check code conformity
-      run: phpcs --standard=PSR2 "C:\Users\enzo_\Php_CodeSniffer\PHP_CodeSniffer\code.php"
+      run: phpcs --standard=PSR2 src/code.php
